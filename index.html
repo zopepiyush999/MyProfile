@@ -3,18 +3,25 @@
     <head>
         <title> My Website </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"/>
     </head>
     <style>
+        *{
+            font-family: "Josefin Sans", sans-serif;
+            text-shadow: 5px 4px 8px rgb(202, 129, 129);
+            background-color: rgb(230, 254, 246);
+        }
         header {
-            background-color: rgb(160, 211, 245);
-            color: rgb(0, 0, 0);
+            color: rgb(13, 11, 11);
         }
         .font-awesome{
             margin-right: 30px;
         }
-        .myframe{
+        nav a{
             margin-right: 30px;
-    
+        }
+        marquee{
+            margin-top: 10px;    
         }
     </style>
     <body>
@@ -35,10 +42,9 @@
         </nav>
         
         <br>
-        <iframe width="900px" height="500px" name="MyFrame" src="home.html">
-                
-        </iframe>
 
+        <iframe width="900px" height="500px" name="MyFrame" src="home.html"></iframe>
+    
         <br><br>
 
         <footer>
@@ -49,6 +55,8 @@
             <span class="font-awesome"></span><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> 
             <span class="font-awesome"></span><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> 
         </footer>
-        
+        <marquee>
+            Welcome to CODEMIND Technology
+        </marquee>
     </body>
 </html>
