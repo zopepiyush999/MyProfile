@@ -2,9 +2,39 @@
 <html>
     <head>
         <title> Registration form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
+        crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        <style>
+            label{
+                color: rgb(228, 13, 135);
+            }
+            h1{
+                text-shadow: 10px 10px 10px rgb(156, 156, 156);
+            }
+            input[type="text"],input[type="number"],input[type="checkbox"],input[type="email"],input[type="password"]{
+                color: rgb(15, 26, 243);
+                border: 2px solid rgb(0, 0, 0);
+                height: 20px;
+                border-radius: 20px;
+            }
+            button[type="submit"],button[type="reset"]{
+                border: 2px solid rgb(0, 0, 0);
+                height: 20px;
+                width: 100px;
+                border-radius: 10px;
+            }
+            button:hover{
+                background-color: rgb(88, 146, 239);
+            }
+            *{
+                /* font-family: 'Cormorant Garamond', serif; */
+                background-color:rgb(255, 255, 255);
+            }
+
+        </style>
     </head>
     <body>
-        <h3> Student Registration Form</h3>
+        <h1> Student Registration Form</h1>
         <form>
             <table>
                 <tbody>
@@ -76,10 +106,10 @@
                         <td> <label> Present Address </label> </td>
                         <td> <textarea rows="7" cols="40">  </textarea> </td>
                       </tr>
-                    <tr>
+                    <!-- <tr>
                         <td> <input type="submit" > </td>
                         <td> <input type="reset"> </td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td> <button type="submit"> Register</button></td>
                         <td> <button type="reset"> Clear All</button></td>
